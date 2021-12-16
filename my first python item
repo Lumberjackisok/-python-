@@ -1,0 +1,86 @@
+def red1(selectred1):
+    return selectred1
+
+selectred1 = int(input("select red ball 1:"))
+if selectred1 >=1 and selectred1 <= 35:
+    print("your red ball 1 is:",selectred1)
+elif selectred1 < 1 or selectred1 > 35:
+    selectred1 = int(input("only 1-35:"))
+    print("your red ball 1 is:",selectred1)
+
+
+
+def red2(selectred2):
+    return selectred2
+
+selectred2 = int(input("select red ball 2:"))
+if selectred2 >=1 and selectred2 <= 35:
+    print("your red ball 2 is:",selectred2)
+elif selectred2 < 1 or selectred2 > 35:
+    selectred2 = int(input("only 1-35:"))
+    print("your red ball 2 is:",selectred2)
+
+
+def red3(selectred3):
+    return selectred3
+
+selectred3 = int(input("select red ball 3:"))
+if selectred3 >=1 and selectred3 <= 35:
+    print("your red ball 3 is:",selectred3)
+elif selectred3 < 1 or selectred3 > 35:
+    selectred3 = int(input("only 1-35:"))
+    print("your red ball 3 is:",selectred3)
+
+
+
+def red4(selectred4):
+    return selectred4
+
+selectred4 = int(input("select red ball 4:"))
+if selectred4 >=1 and selectred4 <= 35:
+    print("your red ball 4 is:",selectred4)
+elif selectred4 < 1 or selectred4 > 35:
+    selectred4 = int(input("only 1-35:"))
+    print("your red ball 3 is:",selectred4)
+
+
+
+def red5(selectred5):
+    return selectred5
+
+selectred5 = int(input("select red ball 5:"))
+if selectred5 >=1 and selectred5 <= 35:
+    print("your red ball 5 is:",selectred5)
+elif selectred5 < 1 or selectred5 > 35:
+    selectred5 = int(input("only 1-35:"))
+    print("your red ball 3 is:",selectred5)
+
+
+def blue1(selectblue1):
+    return selectblue1
+
+selectblue1 = int(input("select blue ball 1:"))
+if selectblue1 >=1 and selectblue1 <= 12:
+    print("your blue ball 1 is:",selectblue1)
+elif selectblue1 < 1 or selectblue1 > 12:
+    selectblue1 = int(input("only 1-12:"))
+    print("your blue ball 1 is:",selectblue1)
+
+
+
+
+def blue2(selectblue2):
+    return selectblue2
+
+selectblue2 = int(input("select blue ball 2:"))
+if selectblue2 >=1 and selectblue2 <= 12:
+    print("your blue ball 2 is:",selectblue2)
+elif selectblue2 < 1 or selectblue2 > 12:
+    selectblue2 = int(input("only 1-12:"))
+    print("your blue ball 2 is:",selectblue2)
+
+
+finlist = [red1(selectred1),red2(selectred2),red3(selectred3),red4(selectred4),red5(selectred5),blue1(selectblue1),blue2(selectblue2)]
+print(finlist)
+
+input("enter anything quit:")
