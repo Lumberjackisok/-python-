@@ -1,0 +1,4 @@
+red1 = int(input("enter your red ball 1:"))
+while red1 < 1 or red1 > 35:
+    red1 = int(input("only 1-35:"))
+print("your red ball 1 is:",red1)
